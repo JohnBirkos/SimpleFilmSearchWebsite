@@ -1,0 +1,150 @@
+.movieList {
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 25%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+.morebtn {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.morebtn:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.posterImage {
+    width: 300px;
+    height: 400px;
+}
+
+.onShowMore_Title,
+.onShowMore_BasicInfo {
+    text-align: center
+}
+
+.onShowMore_Poster {
+    float: left;
+    width: 250px;
+    height: 350px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.onShowMore_Poster img {
+    max-width: 100%;
+    height: auto;
+}
+
+.onShowMore_AllInfo {
+    float: right;
+    width: 79%;
+    margin: 0;
+}
+
+span {
+    background-color: green;
+    color: white;
+    padding: 2px;
+}
+
+#searchResults {
+    display: inline-block;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+#searchBarDiv {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#searchBar {
+    width: 35%;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#searchBar:focus,
+#showMore:focus,
+#backtrackBtn:hover {
+    outline: none;
+}
+
+#movielist {
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+    list-style-type: none;
+}
+
+footer {
+    margin-bottom: 15px;
+    display: inline-block;
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#movieinformation {
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+#showMore {
+    width: 100px;
+    height: 35px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: #1d0fe2a8;
+}
+
+#backtrackBtn {
+    border-radius: 50%;
+    border-style: none;
+    width: 200px;
+    height: 50px;
+    background-color: #e20f0fa8;
+}
+
+#backtrackBtn:hover {
+    background-color: #830b0bc0;
+    box-shadow: 1px 1px 5px#420000;
+}
+
+#showMore:hover {
+    background-color: #130b83c0;
+    box-shadow: 1px 1px 5px#0c0042;
+}
+
+#backtrackDiv {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
